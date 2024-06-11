@@ -43,7 +43,4 @@ re: fclean all
 clear:
 	@clear
 
-run: clear re
-	./$(NAME) "8 6 5 7 3 2 1 4 9"
-
-.PHONY:	all clean fclean re clear run bonus
+.PHONY:	all clean fclean re clear bonus
